@@ -1,6 +1,6 @@
 import csv
 import json
-import os
+
 def load_book_data(filename):
     """
     Read book data from a CSV file.
@@ -120,8 +120,8 @@ def convert_currency(books, exchange_rate):
     pass
 
 def main():
-    input_file = 'books.csv'
-    output_file = "book_analysis_report.txt"
+    input_file = '/Users/adiv/git/ME371/ex1/books.csv'
+    output_file = '/Users/adiv/git/ME371/ex1/book_analysis_report.txt'
     
     try:
         # Load data
@@ -156,4 +156,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    print(os.getcwd())
