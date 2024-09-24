@@ -23,8 +23,12 @@ def calculate_discount_price(books, discount_rate):
     Returns:
         list of dict: Updated list of book dictionaries with discounted price
     """
-    # TODO: Implement discounted price calculation
-    pass
+    for book in books:
+        original_price = float(book['price'])
+        discounted_price = original_price * (1-discount_rate)
+        book['price'] = round(discounted_price,2)
+    return books
+    
 
 def find_unique_genres(books):
     """
@@ -34,7 +38,11 @@ def find_unique_genres(books):
     Returns:
         set: Set of unique genres
     """
-    # TODO: Implement unique genres extraction
+    genres = set()
+    for book in books:
+        if 'genre' in book:
+            genres.add(book['genre'])
+    return genres
     pass
 
 def filter_books_by_year(books, start_year, end_year):
@@ -46,9 +54,11 @@ def filter_books_by_year(books, start_year, end_year):
         end_year (int): End year of the range
     Returns:
         list of dict: Filtered list of book dictionaries
-    """
-    # TODO: Implement book filtering by year
-    pass
+    
+    for book in books:
+        if 'year' >= start_year and 'year' <= end_year in books:
+    """        
+    
 
 def sort_books(books, sort_by, reverse=False):
     """
@@ -120,8 +130,8 @@ def convert_currency(books, exchange_rate):
     pass
 
 def main():
-    input_file = '/Users/adiv/git/ME371/ex1/books.csv'
-    output_file = '/Users/adiv/git/ME371/ex1/book_analysis_report.txt'
+    input_file = "books.csv"
+    output_file = "book_analysis_report.txt"
     
     try:
         # Load data
@@ -143,14 +153,11 @@ def main():
         generate_book_report(books, output_file)
         
         # Perform updates and conversions
-        updates = {'To Kill a Mockingbird': {'year': 1960}, 'Pride and Prejudice': {'price': 12.99}}
+        updates = {'Book 1': {'year': 1960}, 'Book 2': {'price': 12.99}}
         books = update_book_properties(books, updates)
         books = convert_currency(books, 0.85)  # Convert to GBP
         
         print(f"Analysis complete. Report generated: {output_file}")
-
-        print(books)
-
     except Exception as e:
         print(f"An error occurred: {str(e)}")
 
