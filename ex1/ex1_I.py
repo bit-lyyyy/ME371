@@ -26,7 +26,7 @@ def calculate_discount_price(books, discount_rate):
     for book in books:
         original_price = float(book['price'])
         discounted_price = original_price * (1-discount_rate)
-        book['price'] = round(discounted_price,2)
+        book['discounted_price'] = round(discounted_price,2)
     return books
     
 
@@ -54,10 +54,10 @@ def filter_books_by_year(books, start_year, end_year):
         end_year (int): End year of the range
     Returns:
         list of dict: Filtered list of book dictionaries
-    
+    """
     for book in books:
         if 'year' >= start_year and 'year' <= end_year in books:
-    """        
+            
     
 
 def sort_books(books, sort_by, reverse=False):
