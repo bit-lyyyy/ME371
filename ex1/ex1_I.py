@@ -84,6 +84,7 @@ def find_most_prolific_author(books):
     Returns:
         str: Name of the most prolific author
     """
+    author_tally = {}
     for book in books:
         author = book.get('author', None) 
         if author:
@@ -176,8 +177,20 @@ def convert_currency(books, exchange_rate):
     Returns:
         list of dict: Updated list of book dictionaries with converted prices
     """
-    # TODO: Implement currency conversion with error handling
-    pass
+    if not isinstance(books, list):
+        raise ValueError("Books must be a list of dictionaries")
+    if not isinstance(exchange_rate, (int, float)) or exchange_rate <= 0:
+        raise ValueError("The 'exchange_rate' must be a positive number.")
+    
+    for book in books:
+        try:
+            price = float(book.get('price', 0))
+            converted_price = price * exchange_rate
+
+            book['price'] = round(converted_price, 2)
+        except (ValueError, TypeError):
+            print(f"Warning: Unable to convert price for book '{book.get('title', 'Unknown Title')} - Price: {book.get('price')}")
+    return books
 
 def main():
     input_file = "books.csv"
@@ -206,7 +219,10 @@ def main():
         updates = {'Book 1': {'year': 1960}, 'Book 2': {'price': 12.99}}
         books = update_book_properties(books, updates)
         books = convert_currency(books, 0.85)  # Convert to GBP
-        
+       
+        # Generate report
+        generate_book_report(books, output_file)
+
         print(f"Analysis complete. Report generated: {output_file}")
     except Exception as e:
         print(f"An error occurred: {str(e)}")
