@@ -128,8 +128,22 @@ def generate_book_report(books, output_filename):
         books (list of dict): List of book dictionaries
         output_filename (str): Name of the output text file
     """
-    # TODO: Implement report generation
-    pass
+    try:
+        with open(output_filename, 'w') as file:
+            file.write("Book Report\n")
+            file.write("-----------------------------\n")
+            for index, book in enumerate(books, start=1):
+                file.write(f"Book {index}:\n")
+                file.write(f"  Title: {book.get('title', 'N/A')}\n")
+                file.write(f"  Author: {book.get('author', 'N/A')}\n")
+                file.write(f"  Genre: {book.get('genre', 'N/A')}\n")
+                file.write(f"  Year: {book.get('year', 'N/A')}\n")
+                file.write(f"  Price: ${book.get('price', 'N/A')}\n")
+            file.write("End of Report\n")
+        print(f"Report successfully generated: {output_filename}")
+    except Exception as e:
+        print(f"An error occurred while generating the report: {e}")
+
 
 def update_book_properties(books, updates):
     """
@@ -140,8 +154,18 @@ def update_book_properties(books, updates):
     Returns:
         list of dict: Updated list of book dictionaries
     """
-    # TODO: Implement book property updates with error handling
-    pass
+    for book in books:
+        title = book.get('title')
+        
+        if title in updates:
+            book_updates = updates[title]
+
+            for key, value in book_updates.items():
+                if key in book:
+                    book[key] = value
+                else:
+                    print(f"Warning: Property '{key}' not found in book '{title}'. Skipping this update.")
+    return books
 
 def convert_currency(books, exchange_rate):
     """
