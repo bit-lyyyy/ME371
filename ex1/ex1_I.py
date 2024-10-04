@@ -55,8 +55,11 @@ def filter_books_by_year(books, start_year, end_year):
     Returns:
         list of dict: Filtered list of book dictionaries
     """
+    filtered_books_year = []
     for book in books:
-        if 'year' >= start_year and 'year' <= end_year in books:
+        if 'year' in book and start_year <= int(book['year']) <= end_year:
+            filtered_books_year.append(book)
+    return filtered_books_year
             
     
 
@@ -70,8 +73,8 @@ def sort_books(books, sort_by, reverse=False):
     Returns:
         list of dict: Sorted list of book dictionaries
     """
-    # TODO: Implement book sorting
-    pass
+    sorted_books = sorted(books, key=lambda book: book.get(sort_by), reverse=reverse)
+    return sorted_books
 
 def find_most_prolific_author(books):
     """
@@ -81,8 +84,15 @@ def find_most_prolific_author(books):
     Returns:
         str: Name of the most prolific author
     """
-    # TODO: Implement finding the most prolific author
-    pass
+    for book in books:
+        author = book.get('author', None) 
+        if author:
+            author_tally[author] = author_tally.get(author, 0) + 1
+    if author_tally:
+        most_prolific_author = max(author_tally, key=author_tally.get)
+        return most_prolific_author
+    else:
+        return None
 
 def calculate_average_price_by_genre(books):
     """
@@ -92,8 +102,24 @@ def calculate_average_price_by_genre(books):
     Returns:
         dict: Dictionary of average prices by genre
     """
-    # TODO: Implement average price calculation by genre
-    pass
+    genre_totals = {}
+    for book in books:
+        genre = book.get('genre')
+        try:
+            price = float(book.get('price', 0))
+            if genre:
+                if genre not in genre_totals:
+                    genre_totals[genre] = {'total_price': 0, 'count': 0}
+                genre_totals[genre]['total_price'] += price
+                genre_totals[genre]['count'] += 1
+        except ValueError:
+            print(f"Skipping book with invalid price: {book.get('title', 'Unknown Title')} - Price: {book.get('price')}")
+    average_price_by_genre = {}
+    for genre, values in genre_totals.items():
+        if values['count'] > 0:
+            average_price_by_genre[genre] = round(values['total_price']/ values['count'], 2)
+    return average_price_by_genre
+        
 
 def generate_book_report(books, output_filename):
     """
