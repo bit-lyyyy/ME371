@@ -40,8 +40,16 @@ def calculate_velocity(position_data, time_step):
     Returns:
     list of tuples: List of (time, velocity) tuples
     """
-    # TODO: Implement velocity calculation
-    pass
+    veloctiy_data = []
+    for i in range(1, len(position_data)):
+        t = position_data[i][0]
+        x1 = position_data[i][1]
+        x0 = position_data[i-1][1]
+
+        dv = (x1 - x0)/time_step
+        veloctiy_data.append((t, dv))
+    return veloctiy_data
+
 
 def calculate_acceleration(velocity_data, time_step):
     """
