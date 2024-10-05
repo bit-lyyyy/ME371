@@ -46,8 +46,8 @@ def calculate_velocity(position_data, time_step):
         x1 = position_data[i][1]
         x0 = position_data[i-1][1]
 
-        dv = (x1 - x0)/time_step
-        veloctiy_data.append((t, dv))
+        dx = (x1 - x0)/time_step
+        veloctiy_data.append((t, dx))
     return veloctiy_data
 
 
@@ -62,8 +62,16 @@ def calculate_acceleration(velocity_data, time_step):
     Returns:
     list of tuples: List of (time, acceleration) tuples
     """
-    # TODO: Implement acceleration calculation
-    pass
+    acceleration_data = []
+    for i in range(1, len(velocity_data_data)):
+        t = velocity_data[i][0]
+        v1 = velocity_data[i][1]
+        v0 = velocity_data[i-1][1]
+
+        dv = (v1 - v0)/time_step
+        acceleration_data.append((t, dv))
+    return acceleration_data
+
 
 def find_max_force(force_data):
     """
