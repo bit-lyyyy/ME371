@@ -138,8 +138,12 @@ def generate_book_report(books, output_filename):
                 file.write(f"  Title: {book.get('title', 'N/A')}\n")
                 file.write(f"  Author: {book.get('author', 'N/A')}\n")
                 file.write(f"  Genre: {book.get('genre', 'N/A')}\n")
-                file.write(f"  Year: {book.get('year', 'N/A')}\n")
-                file.write(f"  Price: ${book.get('price', 'N/A')}\n")
+                file.write(f"  Year: {book.get('year', 'N/A')}\n")                
+                file.write(f"  Price: ${book.get('price', 'N/A')}\n")                
+                file.write(f"  Discounted Price: ${book.get('discounted_price', 'N/A')}\n")                
+                file.write(f"  Converted Price: {book.get('converted_price', 'N/A')} GBP\n")
+
+
             file.write("End of Report\n")
         print(f"Report successfully generated: {output_filename}")
     except Exception as e:
@@ -184,10 +188,10 @@ def convert_currency(books, exchange_rate):
     
     for book in books:
         try:
-            price = float(book.get('price', 0))
-            converted_price = price * exchange_rate
+            original_price = float(book.get('price', 0))
+            converted_price = original_price * exchange_rate
 
-            book['price'] = round(converted_price, 2)
+            book['converted_price'] = round(converted_price, 2)
         except (ValueError, TypeError):
             print(f"Warning: Unable to convert price for book '{book.get('title', 'Unknown Title')} - Price: {book.get('price')}")
     return books
@@ -213,7 +217,7 @@ def main():
         avg_prices = calculate_average_price_by_genre(books)
         
         # Generate report
-        generate_book_report(books, output_file)
+        #generate_book_report(books, output_file)
         
         # Perform updates and conversions
         updates = {'Book 1': {'year': 1960}, 'Book 2': {'price': 12.99}}

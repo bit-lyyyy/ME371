@@ -5,299 +5,399 @@ Book 1:
   Author: Stephen King
   Genre: Romance
   Year: 1960
-  Price: $15.67
+  Price: $18.43
+  Discounted Price: $16.59
+  Converted Price: 15.67 GBP
 Book 2:
   Title: Book 2
   Author: Jane Austen
   Genre: Romance
   Year: 1939
-  Price: $11.04
+  Price: $12.99
+  Discounted Price: $5.58
+  Converted Price: 11.04 GBP
 Book 3:
   Title: Book 3
   Author: F. Scott Fitzgerald
   Genre: Non-Fiction
   Year: 1939
-  Price: $20.14
+  Price: $23.7
+  Discounted Price: $21.33
+  Converted Price: 20.14 GBP
 Book 4:
   Title: Book 4
   Author: Virginia Woolf
   Genre: Historical Fiction
   Year: 1940
-  Price: $24.96
+  Price: $29.36
+  Discounted Price: $26.42
+  Converted Price: 24.96 GBP
 Book 5:
   Title: Book 5
   Author: George Orwell
   Genre: Non-Fiction
   Year: 1977
-  Price: $20.77
+  Price: $24.44
+  Discounted Price: $22.0
+  Converted Price: 20.77 GBP
 Book 6:
   Title: Book 6
   Author: Charles Dickens
   Genre: Science Fiction
   Year: 1966
-  Price: $15.5
+  Price: $18.24
+  Discounted Price: $16.42
+  Converted Price: 15.5 GBP
 Book 7:
   Title: Book 7
   Author: Stephen King
   Genre: Fantasy
   Year: 1949
-  Price: $23.04
+  Price: $27.1
+  Discounted Price: $24.39
+  Converted Price: 23.04 GBP
 Book 8:
   Title: Book 8
   Author: Virginia Woolf
   Genre: Mystery
   Year: 1931
-  Price: $19.28
+  Price: $22.68
+  Discounted Price: $20.41
+  Converted Price: 19.28 GBP
 Book 9:
   Title: Book 9
   Author: Charles Dickens
   Genre: Historical Fiction
   Year: 1908
-  Price: $8.72
+  Price: $10.26
+  Discounted Price: $9.23
+  Converted Price: 8.72 GBP
 Book 10:
   Title: Book 10
   Author: George Orwell
   Genre: Romance
   Year: 2005
-  Price: $5.35
+  Price: $6.29
+  Discounted Price: $5.66
+  Converted Price: 5.35 GBP
 Book 11:
   Title: Book 11
   Author: J.K. Rowling
   Genre: Non-Fiction
   Year: 2011
-  Price: $5.7
+  Price: $6.7
+  Discounted Price: $6.03
+  Converted Price: 5.7 GBP
 Book 12:
   Title: Book 12
   Author: Stephen King
   Genre: Non-Fiction
   Year: 2005
-  Price: $14.59
+  Price: $17.17
+  Discounted Price: $15.45
+  Converted Price: 14.59 GBP
 Book 13:
   Title: Book 13
   Author: Jane Austen
   Genre: Science Fiction
   Year: 1966
-  Price: $10.86
+  Price: $12.78
+  Discounted Price: $11.5
+  Converted Price: 10.86 GBP
 Book 14:
   Title: Book 14
   Author: J.K. Rowling
   Genre: Fiction
   Year: 1913
-  Price: $12.34
+  Price: $14.52
+  Discounted Price: $13.07
+  Converted Price: 12.34 GBP
 Book 15:
   Title: Book 15
   Author: George Orwell
   Genre: Science Fiction
   Year: 1921
-  Price: $7.48
+  Price: $8.8
+  Discounted Price: $7.92
+  Converted Price: 7.48 GBP
 Book 16:
   Title: Book 16
   Author: Jane Austen
   Genre: Science Fiction
   Year: 1978
-  Price: $23.19
+  Price: $27.28
+  Discounted Price: $24.55
+  Converted Price: 23.19 GBP
 Book 17:
   Title: Book 17
   Author: Ernest Hemingway
   Genre: Romance
   Year: 1957
-  Price: $13.29
+  Price: $15.64
+  Discounted Price: $14.08
+  Converted Price: 13.29 GBP
 Book 18:
   Title: Book 18
   Author: Mark Twain
   Genre: Thriller
   Year: 2006
-  Price: $17.4
+  Price: $20.47
+  Discounted Price: $18.42
+  Converted Price: 17.4 GBP
 Book 19:
   Title: Book 19
   Author: Agatha Christie
   Genre: Thriller
   Year: 1978
-  Price: $12.47
+  Price: $14.67
+  Discounted Price: $13.2
+  Converted Price: 12.47 GBP
 Book 20:
   Title: Book 20
   Author: Charles Dickens
   Genre: Fiction
   Year: 1946
-  Price: $20.88
+  Price: $24.57
+  Discounted Price: $22.11
+  Converted Price: 20.88 GBP
 Book 21:
   Title: Book 21
   Author: Agatha Christie
   Genre: Fiction
   Year: 1998
-  Price: $23.26
+  Price: $27.37
+  Discounted Price: $24.63
+  Converted Price: 23.26 GBP
 Book 22:
   Title: Book 22
   Author: F. Scott Fitzgerald
   Genre: Non-Fiction
   Year: 1924
-  Price: $8.02
+  Price: $9.43
+  Discounted Price: $8.49
+  Converted Price: 8.02 GBP
 Book 23:
   Title: Book 23
   Author: Stephen King
   Genre: Non-Fiction
   Year: 1995
-  Price: $12.63
+  Price: $14.86
+  Discounted Price: $13.37
+  Converted Price: 12.63 GBP
 Book 24:
   Title: Book 24
   Author: Stephen King
   Genre: Fantasy
   Year: 1965
-  Price: $12.95
+  Price: $15.24
+  Discounted Price: $13.72
+  Converted Price: 12.95 GBP
 Book 25:
   Title: Book 25
   Author: Virginia Woolf
   Genre: Romance
   Year: 1926
-  Price: $24.97
+  Price: $29.38
+  Discounted Price: $26.44
+  Converted Price: 24.97 GBP
 Book 26:
   Title: Book 26
   Author: Mark Twain
   Genre: Fantasy
   Year: 1910
-  Price: $12.64
+  Price: $14.87
+  Discounted Price: $13.38
+  Converted Price: 12.64 GBP
 Book 27:
   Title: Book 27
   Author: Agatha Christie
   Genre: Mystery
   Year: 2004
-  Price: $8.24
+  Price: $9.69
+  Discounted Price: $8.72
+  Converted Price: 8.24 GBP
 Book 28:
   Title: Book 28
   Author: Mark Twain
   Genre: Science Fiction
   Year: 1916
-  Price: $5.72
+  Price: $6.73
+  Discounted Price: $6.06
+  Converted Price: 5.72 GBP
 Book 29:
   Title: Book 29
   Author: Ernest Hemingway
   Genre: Historical Fiction
   Year: 2015
-  Price: $13.67
+  Price: $16.08
+  Discounted Price: $14.47
+  Converted Price: 13.67 GBP
 Book 30:
   Title: Book 30
   Author: Ernest Hemingway
   Genre: Non-Fiction
   Year: 1995
-  Price: $6.13
+  Price: $7.21
+  Discounted Price: $6.49
+  Converted Price: 6.13 GBP
 Book 31:
   Title: Book 31
   Author: Mark Twain
   Genre: Science Fiction
   Year: 1919
-  Price: $24.69
+  Price: $29.05
+  Discounted Price: $26.14
+  Converted Price: 24.69 GBP
 Book 32:
   Title: Book 32
   Author: Agatha Christie
   Genre: Fantasy
   Year: 2002
-  Price: $6.9
+  Price: $8.12
+  Discounted Price: $7.31
+  Converted Price: 6.9 GBP
 Book 33:
   Title: Book 33
   Author: Virginia Woolf
   Genre: Mystery
   Year: 1907
-  Price: $22.26
+  Price: $26.19
+  Discounted Price: $23.57
+  Converted Price: 22.26 GBP
 Book 34:
   Title: Book 34
   Author: Ernest Hemingway
   Genre: Mystery
   Year: 1982
-  Price: $8.57
+  Price: $10.08
+  Discounted Price: $9.07
+  Converted Price: 8.57 GBP
 Book 35:
   Title: Book 35
   Author: Jane Austen
   Genre: Non-Fiction
   Year: 1952
-  Price: $18.17
+  Price: $21.38
+  Discounted Price: $19.24
+  Converted Price: 18.17 GBP
 Book 36:
   Title: Book 36
   Author: Virginia Woolf
   Genre: Romance
   Year: 1973
-  Price: $12.2
+  Price: $14.35
+  Discounted Price: $12.91
+  Converted Price: 12.2 GBP
 Book 37:
   Title: Book 37
   Author: Mark Twain
   Genre: Non-Fiction
   Year: 2020
-  Price: $16.63
+  Price: $19.57
+  Discounted Price: $17.61
+  Converted Price: 16.63 GBP
 Book 38:
   Title: Book 38
   Author: F. Scott Fitzgerald
   Genre: Mystery
   Year: 1940
-  Price: $17.34
+  Price: $20.4
+  Discounted Price: $18.36
+  Converted Price: 17.34 GBP
 Book 39:
   Title: Book 39
   Author: George Orwell
   Genre: Romance
   Year: 1932
-  Price: $13.34
+  Price: $15.7
+  Discounted Price: $14.13
+  Converted Price: 13.34 GBP
 Book 40:
   Title: Book 40
   Author: F. Scott Fitzgerald
   Genre: Mystery
   Year: 1947
-  Price: $15.87
+  Price: $18.67
+  Discounted Price: $16.8
+  Converted Price: 15.87 GBP
 Book 41:
   Title: Book 41
   Author: Jane Austen
   Genre: Science Fiction
   Year: 1902
-  Price: $19.63
+  Price: $23.09
+  Discounted Price: $20.78
+  Converted Price: 19.63 GBP
 Book 42:
   Title: Book 42
   Author: F. Scott Fitzgerald
   Genre: Fiction
   Year: 1933
-  Price: $19.58
+  Price: $23.04
+  Discounted Price: $20.74
+  Converted Price: 19.58 GBP
 Book 43:
   Title: Book 43
   Author: Jane Austen
   Genre: Romance
   Year: 2011
-  Price: $17.6
+  Price: $20.71
+  Discounted Price: $18.64
+  Converted Price: 17.6 GBP
 Book 44:
   Title: Book 44
   Author: J.K. Rowling
   Genre: Fantasy
   Year: 1982
-  Price: $24.75
+  Price: $29.12
+  Discounted Price: $26.21
+  Converted Price: 24.75 GBP
 Book 45:
   Title: Book 45
   Author: Ernest Hemingway
   Genre: Fantasy
   Year: 1921
-  Price: $5.93
+  Price: $6.98
+  Discounted Price: $6.28
+  Converted Price: 5.93 GBP
 Book 46:
   Title: Book 46
   Author: Mark Twain
   Genre: Thriller
   Year: 1966
-  Price: $16.19
+  Price: $19.05
+  Discounted Price: $17.14
+  Converted Price: 16.19 GBP
 Book 47:
   Title: Book 47
   Author: Jane Austen
   Genre: Thriller
   Year: 1934
-  Price: $5.3
+  Price: $6.24
+  Discounted Price: $5.62
+  Converted Price: 5.3 GBP
 Book 48:
   Title: Book 48
   Author: Stephen King
   Genre: Thriller
   Year: 1940
-  Price: $16.88
+  Price: $19.86
+  Discounted Price: $17.87
+  Converted Price: 16.88 GBP
 Book 49:
   Title: Book 49
   Author: Jane Austen
   Genre: Fantasy
   Year: 1913
-  Price: $18.63
+  Price: $21.92
+  Discounted Price: $19.73
+  Converted Price: 18.63 GBP
 Book 50:
   Title: Book 50
   Author: George Orwell
   Genre: Historical Fiction
   Year: 1944
-  Price: $23.85
+  Price: $28.06
+  Discounted Price: $25.25
+  Converted Price: 23.85 GBP
 End of Report
