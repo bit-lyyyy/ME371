@@ -83,8 +83,10 @@ def find_max_force(force_data):
     Returns:
     tuple: (time, max_force)
     """
-    # TODO: Implement maximum force calculation
-    pass
+    time_of_max_force, max_force = max(force_data, key=lambda item: item[1])
+    
+    return time_of_max_force, max_force
+    
 
 def calculate_work_done(force_data, position_data):
     """
@@ -97,8 +99,17 @@ def calculate_work_done(force_data, position_data):
     Returns:
     float: Total work done
     """
-    # TODO: Implement work done calculation
-    pass
+    if len(force_data) != len(position_data):
+            raise ValueError("The length of force_data and position_data must be equal.")
+    
+    work_done = 0
+    for i in range(1, len(force_data)):
+        x1 = position_data[i][1]
+        x0 = position_data[i-1][1]
+        F = force_data[i][1]
+        work_done += F * (x1-x0)
+    return work_done
+
 
 def write_results(filename, results_data):
     """
