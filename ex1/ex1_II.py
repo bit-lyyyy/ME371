@@ -63,7 +63,7 @@ def calculate_acceleration(velocity_data, time_step):
     list of tuples: List of (time, acceleration) tuples
     """
     acceleration_data = []
-    for i in range(1, len(velocity_data_data)):
+    for i in range(1, len(velocity_data)):
         t = velocity_data[i][0]
         v1 = velocity_data[i][1]
         v0 = velocity_data[i-1][1]
@@ -119,8 +119,45 @@ def write_results(filename, results_data):
     filename (str): Name of the output CSV file
     results_data (dict): Dictionary containing results to be written
     """
-    # TODO: Implement writing results to CSV file
-    pass
+    try:
+        # Open the file in write mode
+        with open(filename, mode='w', newline='') as file:
+            writer = csv.writer(file)
+
+            # Write headers for each section and then the corresponding data
+            
+            # Write Velocity Data
+            writer.writerow(["Velocity Data"])
+            writer.writerow(["Time (s)", "Velocity (m/s)"])
+            for time, velocity in results_data["velocity"]:
+                writer.writerow([time, velocity])
+
+            writer.writerow([])  # Empty row for separation
+
+            # Write Acceleration Data
+            writer.writerow(["Acceleration Data"])
+            writer.writerow(["Time (s)", "Acceleration (m/s^2)"])
+            for time, acceleration in results_data["acceleration"]:
+                writer.writerow([time, acceleration])
+
+            writer.writerow([])  # Empty row for separation
+
+            # Write Maximum Force Data
+            writer.writerow(["Maximum Force"])
+            writer.writerow(["Time (s)", "Max Force (N)"])
+            max_force_time, max_force = results_data["max_force"]
+            writer.writerow([max_force_time, max_force])
+
+            writer.writerow([])  # Empty row for separation
+
+            # Write Work Done
+            writer.writerow(["Work Done"])
+            writer.writerow(["Total Work Done (Joules)"])
+            writer.writerow([results_data["work_done"]])
+
+        print(f"Results successfully written to {filename}")
+    except Exception as e:
+        print(f"An error occurred while writing results: {e}")
 
 def main():
     input_file = "mechanical_data.csv"
