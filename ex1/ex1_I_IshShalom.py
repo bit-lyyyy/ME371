@@ -217,15 +217,14 @@ def main():
         avg_prices = calculate_average_price_by_genre(books)
         
         # Generate report
-        #generate_book_report(books, output_file)
+        generate_book_report(books, output_file)
         
         # Perform updates and conversions
         updates = {'Book 1': {'year': 1960}, 'Book 2': {'price': 12.99}}
         books = update_book_properties(books, updates)
         books = convert_currency(books, 0.85)  # Convert to GBP
        
-        # Generate report
-        generate_book_report(books, output_file)
+      
 
         print(f"Analysis complete. Report generated: {output_file}")
     except Exception as e:

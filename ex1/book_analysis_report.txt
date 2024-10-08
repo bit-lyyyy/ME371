@@ -4,18 +4,18 @@ Book 1:
   Title: Book 1
   Author: Stephen King
   Genre: Romance
-  Year: 1960
+  Year: 1917
   Price: $18.43
   Discounted Price: $16.59
-  Converted Price: 15.67 GBP
+  Converted Price: N/A GBP
 Book 2:
   Title: Book 2
   Author: Jane Austen
   Genre: Romance
   Year: 1939
-  Price: $12.99
+  Price: $6.2
   Discounted Price: $5.58
-  Converted Price: 11.04 GBP
+  Converted Price: N/A GBP
 Book 3:
   Title: Book 3
   Author: F. Scott Fitzgerald
@@ -23,7 +23,7 @@ Book 3:
   Year: 1939
   Price: $23.7
   Discounted Price: $21.33
-  Converted Price: 20.14 GBP
+  Converted Price: N/A GBP
 Book 4:
   Title: Book 4
   Author: Virginia Woolf
@@ -31,7 +31,7 @@ Book 4:
   Year: 1940
   Price: $29.36
   Discounted Price: $26.42
-  Converted Price: 24.96 GBP
+  Converted Price: N/A GBP
 Book 5:
   Title: Book 5
   Author: George Orwell
@@ -39,7 +39,7 @@ Book 5:
   Year: 1977
   Price: $24.44
   Discounted Price: $22.0
-  Converted Price: 20.77 GBP
+  Converted Price: N/A GBP
 Book 6:
   Title: Book 6
   Author: Charles Dickens
@@ -47,7 +47,7 @@ Book 6:
   Year: 1966
   Price: $18.24
   Discounted Price: $16.42
-  Converted Price: 15.5 GBP
+  Converted Price: N/A GBP
 Book 7:
   Title: Book 7
   Author: Stephen King
@@ -55,7 +55,7 @@ Book 7:
   Year: 1949
   Price: $27.1
   Discounted Price: $24.39
-  Converted Price: 23.04 GBP
+  Converted Price: N/A GBP
 Book 8:
   Title: Book 8
   Author: Virginia Woolf
@@ -63,7 +63,7 @@ Book 8:
   Year: 1931
   Price: $22.68
   Discounted Price: $20.41
-  Converted Price: 19.28 GBP
+  Converted Price: N/A GBP
 Book 9:
   Title: Book 9
   Author: Charles Dickens
@@ -71,7 +71,7 @@ Book 9:
   Year: 1908
   Price: $10.26
   Discounted Price: $9.23
-  Converted Price: 8.72 GBP
+  Converted Price: N/A GBP
 Book 10:
   Title: Book 10
   Author: George Orwell
@@ -79,7 +79,7 @@ Book 10:
   Year: 2005
   Price: $6.29
   Discounted Price: $5.66
-  Converted Price: 5.35 GBP
+  Converted Price: N/A GBP
 Book 11:
   Title: Book 11
   Author: J.K. Rowling
@@ -87,7 +87,7 @@ Book 11:
   Year: 2011
   Price: $6.7
   Discounted Price: $6.03
-  Converted Price: 5.7 GBP
+  Converted Price: N/A GBP
 Book 12:
   Title: Book 12
   Author: Stephen King
@@ -95,7 +95,7 @@ Book 12:
   Year: 2005
   Price: $17.17
   Discounted Price: $15.45
-  Converted Price: 14.59 GBP
+  Converted Price: N/A GBP
 Book 13:
   Title: Book 13
   Author: Jane Austen
@@ -103,7 +103,7 @@ Book 13:
   Year: 1966
   Price: $12.78
   Discounted Price: $11.5
-  Converted Price: 10.86 GBP
+  Converted Price: N/A GBP
 Book 14:
   Title: Book 14
   Author: J.K. Rowling
@@ -111,7 +111,7 @@ Book 14:
   Year: 1913
   Price: $14.52
   Discounted Price: $13.07
-  Converted Price: 12.34 GBP
+  Converted Price: N/A GBP
 Book 15:
   Title: Book 15
   Author: George Orwell
@@ -119,7 +119,7 @@ Book 15:
   Year: 1921
   Price: $8.8
   Discounted Price: $7.92
-  Converted Price: 7.48 GBP
+  Converted Price: N/A GBP
 Book 16:
   Title: Book 16
   Author: Jane Austen
@@ -127,7 +127,7 @@ Book 16:
   Year: 1978
   Price: $27.28
   Discounted Price: $24.55
-  Converted Price: 23.19 GBP
+  Converted Price: N/A GBP
 Book 17:
   Title: Book 17
   Author: Ernest Hemingway
@@ -135,7 +135,7 @@ Book 17:
   Year: 1957
   Price: $15.64
   Discounted Price: $14.08
-  Converted Price: 13.29 GBP
+  Converted Price: N/A GBP
 Book 18:
   Title: Book 18
   Author: Mark Twain
@@ -143,7 +143,7 @@ Book 18:
   Year: 2006
   Price: $20.47
   Discounted Price: $18.42
-  Converted Price: 17.4 GBP
+  Converted Price: N/A GBP
 Book 19:
   Title: Book 19
   Author: Agatha Christie
@@ -151,7 +151,7 @@ Book 19:
   Year: 1978
   Price: $14.67
   Discounted Price: $13.2
-  Converted Price: 12.47 GBP
+  Converted Price: N/A GBP
 Book 20:
   Title: Book 20
   Author: Charles Dickens
@@ -159,7 +159,7 @@ Book 20:
   Year: 1946
   Price: $24.57
   Discounted Price: $22.11
-  Converted Price: 20.88 GBP
+  Converted Price: N/A GBP
 Book 21:
   Title: Book 21
   Author: Agatha Christie
@@ -167,7 +167,7 @@ Book 21:
   Year: 1998
   Price: $27.37
   Discounted Price: $24.63
-  Converted Price: 23.26 GBP
+  Converted Price: N/A GBP
 Book 22:
   Title: Book 22
   Author: F. Scott Fitzgerald
@@ -175,7 +175,7 @@ Book 22:
   Year: 1924
   Price: $9.43
   Discounted Price: $8.49
-  Converted Price: 8.02 GBP
+  Converted Price: N/A GBP
 Book 23:
   Title: Book 23
   Author: Stephen King
@@ -183,7 +183,7 @@ Book 23:
   Year: 1995
   Price: $14.86
   Discounted Price: $13.37
-  Converted Price: 12.63 GBP
+  Converted Price: N/A GBP
 Book 24:
   Title: Book 24
   Author: Stephen King
@@ -191,7 +191,7 @@ Book 24:
   Year: 1965
   Price: $15.24
   Discounted Price: $13.72
-  Converted Price: 12.95 GBP
+  Converted Price: N/A GBP
 Book 25:
   Title: Book 25
   Author: Virginia Woolf
@@ -199,7 +199,7 @@ Book 25:
   Year: 1926
   Price: $29.38
   Discounted Price: $26.44
-  Converted Price: 24.97 GBP
+  Converted Price: N/A GBP
 Book 26:
   Title: Book 26
   Author: Mark Twain
@@ -207,7 +207,7 @@ Book 26:
   Year: 1910
   Price: $14.87
   Discounted Price: $13.38
-  Converted Price: 12.64 GBP
+  Converted Price: N/A GBP
 Book 27:
   Title: Book 27
   Author: Agatha Christie
@@ -215,7 +215,7 @@ Book 27:
   Year: 2004
   Price: $9.69
   Discounted Price: $8.72
-  Converted Price: 8.24 GBP
+  Converted Price: N/A GBP
 Book 28:
   Title: Book 28
   Author: Mark Twain
@@ -223,7 +223,7 @@ Book 28:
   Year: 1916
   Price: $6.73
   Discounted Price: $6.06
-  Converted Price: 5.72 GBP
+  Converted Price: N/A GBP
 Book 29:
   Title: Book 29
   Author: Ernest Hemingway
@@ -231,7 +231,7 @@ Book 29:
   Year: 2015
   Price: $16.08
   Discounted Price: $14.47
-  Converted Price: 13.67 GBP
+  Converted Price: N/A GBP
 Book 30:
   Title: Book 30
   Author: Ernest Hemingway
@@ -239,7 +239,7 @@ Book 30:
   Year: 1995
   Price: $7.21
   Discounted Price: $6.49
-  Converted Price: 6.13 GBP
+  Converted Price: N/A GBP
 Book 31:
   Title: Book 31
   Author: Mark Twain
@@ -247,7 +247,7 @@ Book 31:
   Year: 1919
   Price: $29.05
   Discounted Price: $26.14
-  Converted Price: 24.69 GBP
+  Converted Price: N/A GBP
 Book 32:
   Title: Book 32
   Author: Agatha Christie
@@ -255,7 +255,7 @@ Book 32:
   Year: 2002
   Price: $8.12
   Discounted Price: $7.31
-  Converted Price: 6.9 GBP
+  Converted Price: N/A GBP
 Book 33:
   Title: Book 33
   Author: Virginia Woolf
@@ -263,7 +263,7 @@ Book 33:
   Year: 1907
   Price: $26.19
   Discounted Price: $23.57
-  Converted Price: 22.26 GBP
+  Converted Price: N/A GBP
 Book 34:
   Title: Book 34
   Author: Ernest Hemingway
@@ -271,7 +271,7 @@ Book 34:
   Year: 1982
   Price: $10.08
   Discounted Price: $9.07
-  Converted Price: 8.57 GBP
+  Converted Price: N/A GBP
 Book 35:
   Title: Book 35
   Author: Jane Austen
@@ -279,7 +279,7 @@ Book 35:
   Year: 1952
   Price: $21.38
   Discounted Price: $19.24
-  Converted Price: 18.17 GBP
+  Converted Price: N/A GBP
 Book 36:
   Title: Book 36
   Author: Virginia Woolf
@@ -287,7 +287,7 @@ Book 36:
   Year: 1973
   Price: $14.35
   Discounted Price: $12.91
-  Converted Price: 12.2 GBP
+  Converted Price: N/A GBP
 Book 37:
   Title: Book 37
   Author: Mark Twain
@@ -295,7 +295,7 @@ Book 37:
   Year: 2020
   Price: $19.57
   Discounted Price: $17.61
-  Converted Price: 16.63 GBP
+  Converted Price: N/A GBP
 Book 38:
   Title: Book 38
   Author: F. Scott Fitzgerald
@@ -303,7 +303,7 @@ Book 38:
   Year: 1940
   Price: $20.4
   Discounted Price: $18.36
-  Converted Price: 17.34 GBP
+  Converted Price: N/A GBP
 Book 39:
   Title: Book 39
   Author: George Orwell
@@ -311,7 +311,7 @@ Book 39:
   Year: 1932
   Price: $15.7
   Discounted Price: $14.13
-  Converted Price: 13.34 GBP
+  Converted Price: N/A GBP
 Book 40:
   Title: Book 40
   Author: F. Scott Fitzgerald
@@ -319,7 +319,7 @@ Book 40:
   Year: 1947
   Price: $18.67
   Discounted Price: $16.8
-  Converted Price: 15.87 GBP
+  Converted Price: N/A GBP
 Book 41:
   Title: Book 41
   Author: Jane Austen
@@ -327,7 +327,7 @@ Book 41:
   Year: 1902
   Price: $23.09
   Discounted Price: $20.78
-  Converted Price: 19.63 GBP
+  Converted Price: N/A GBP
 Book 42:
   Title: Book 42
   Author: F. Scott Fitzgerald
@@ -335,7 +335,7 @@ Book 42:
   Year: 1933
   Price: $23.04
   Discounted Price: $20.74
-  Converted Price: 19.58 GBP
+  Converted Price: N/A GBP
 Book 43:
   Title: Book 43
   Author: Jane Austen
@@ -343,7 +343,7 @@ Book 43:
   Year: 2011
   Price: $20.71
   Discounted Price: $18.64
-  Converted Price: 17.6 GBP
+  Converted Price: N/A GBP
 Book 44:
   Title: Book 44
   Author: J.K. Rowling
@@ -351,7 +351,7 @@ Book 44:
   Year: 1982
   Price: $29.12
   Discounted Price: $26.21
-  Converted Price: 24.75 GBP
+  Converted Price: N/A GBP
 Book 45:
   Title: Book 45
   Author: Ernest Hemingway
@@ -359,7 +359,7 @@ Book 45:
   Year: 1921
   Price: $6.98
   Discounted Price: $6.28
-  Converted Price: 5.93 GBP
+  Converted Price: N/A GBP
 Book 46:
   Title: Book 46
   Author: Mark Twain
@@ -367,7 +367,7 @@ Book 46:
   Year: 1966
   Price: $19.05
   Discounted Price: $17.14
-  Converted Price: 16.19 GBP
+  Converted Price: N/A GBP
 Book 47:
   Title: Book 47
   Author: Jane Austen
@@ -375,7 +375,7 @@ Book 47:
   Year: 1934
   Price: $6.24
   Discounted Price: $5.62
-  Converted Price: 5.3 GBP
+  Converted Price: N/A GBP
 Book 48:
   Title: Book 48
   Author: Stephen King
@@ -383,7 +383,7 @@ Book 48:
   Year: 1940
   Price: $19.86
   Discounted Price: $17.87
-  Converted Price: 16.88 GBP
+  Converted Price: N/A GBP
 Book 49:
   Title: Book 49
   Author: Jane Austen
@@ -391,7 +391,7 @@ Book 49:
   Year: 1913
   Price: $21.92
   Discounted Price: $19.73
-  Converted Price: 18.63 GBP
+  Converted Price: N/A GBP
 Book 50:
   Title: Book 50
   Author: George Orwell
@@ -399,5 +399,5 @@ Book 50:
   Year: 1944
   Price: $28.06
   Discounted Price: $25.25
-  Converted Price: 23.85 GBP
+  Converted Price: N/A GBP
 End of Report
